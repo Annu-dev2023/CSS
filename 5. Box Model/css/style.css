@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Box{
+    width: 1000px;
+    height: 200px;
+    border: 10px solid rgba(162, 16, 16, 0.688);
+    text-align: center;
+    font-size: 40px;
+    padding: 50px 50px 50px 50px;
+    margin: 40px ;
+    box-sizing: border-box;
+}

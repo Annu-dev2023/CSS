@@ -1,0 +1,18 @@
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+h1{
+    font-size: 64px;
+    font-family: Ariajl, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px rgb(60, 176, 60);
+}
+/*{
+    text-indent: 20px;
+    text-align: justify;
+    color: blue;
+    font-size: x-large;
+    font-style: oblique;
+    font-family: cursive;
+    background: blanchedalmond;
+}

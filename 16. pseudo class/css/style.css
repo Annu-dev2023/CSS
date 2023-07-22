@@ -1,0 +1,48 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+} 
+.primary-button:link{
+    color: green;
+}
+.primary-button:visited{
+    color: brown;
+}
+.primary-button:hover{
+    color: red;
+    background-color: greenyellow;
+}
+.primary-button:active{
+    background-color: rgb(255, 255, 255);
+    border: 2px dotted blue;
+}
+ol li:first-child{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ol li:last-child{
+    color: blue;
+}
+h2::first-letter{
+    color: aqua;
+    background-color: black;
+}
+::selection{
+    background-color: yellow;
+    color: red;
+}
+p::first-line{
+    text-align: center;
+    color: rgb(241, 97, 229);
+}
+/*before and after tags  it can also not be selected huhhhhhhh*/
+h3::before{
+    content: 'Annuuu';
+}
+h3::after{
+    content: 'HERERERERERERERERERERERERER';
+}
+.required::after{
+    content: '***';
+    color: red;
+
+}
